@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F6BD651CD9932900800F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD641CD9932900800F44 /* main.m */; };
+		C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD671CD9932900800F44 /* AppDelegate.m */; };
+		C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD6A1CD9932900800F44 /* ViewController.m */; };
+		C4F6BD6E1CD9932900800F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F6BD6C1CD9932900800F44 /* Main.storyboard */; };
+		C4F6BD701CD9932900800F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4F6BD6F1CD9932900800F44 /* Assets.xcassets */; };
+		C4F6BD731CD9932900800F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F6BD711CD9932900800F44 /* LaunchScreen.storyboard */; };
+		C4F6BD7E1CD9932900800F44 /* DawadCraftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD7D1CD9932900800F44 /* DawadCraftTests.m */; };
+		C4F6BD891CD9932900800F44 /* DawadCraftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD881CD9932900800F44 /* DawadCraftUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4F6BD7A1CD9932900800F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F6BD581CD9932900800F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F6BD5F1CD9932900800F44;
+			remoteInfo = DawadCraft;
+		};
+		C4F6BD851CD9932900800F44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4F6BD581CD9932900800F44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F6BD5F1CD9932900800F44;
+			remoteInfo = DawadCraft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4F6BD601CD9932900800F44 /* DawadCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawadCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F6BD641CD9932900800F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4F6BD661CD9932900800F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4F6BD671CD9932900800F44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4F6BD691CD9932900800F44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4F6BD6A1CD9932900800F44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4F6BD6D1CD9932900800F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4F6BD6F1CD9932900800F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4F6BD721CD9932900800F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4F6BD741CD9932900800F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6BD791CD9932900800F44 /* DawadCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawadCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F6BD7D1CD9932900800F44 /* DawadCraftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DawadCraftTests.m; sourceTree = "<group>"; };
+		C4F6BD7F1CD9932900800F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4F6BD841CD9932900800F44 /* DawadCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawadCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F6BD881CD9932900800F44 /* DawadCraftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DawadCraftUITests.m; sourceTree = "<group>"; };
+		C4F6BD8A1CD9932900800F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F6BD5D1CD9932900800F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6BD761CD9932900800F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6BD811CD9932900800F44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F6BD571CD9932900800F44 = {
+			isa = PBXGroup;
+			children = (
+				C4F6BD621CD9932900800F44 /* DawadCraft */,
+				C4F6BD7C1CD9932900800F44 /* DawadCraftTests */,
+				C4F6BD871CD9932900800F44 /* DawadCraftUITests */,
+				C4F6BD611CD9932900800F44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F6BD611CD9932900800F44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6BD601CD9932900800F44 /* DawadCraft.app */,
+				C4F6BD791CD9932900800F44 /* DawadCraftTests.xctest */,
+				C4F6BD841CD9932900800F44 /* DawadCraftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F6BD621CD9932900800F44 /* DawadCraft */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6BD661CD9932900800F44 /* AppDelegate.h */,
+				C4F6BD671CD9932900800F44 /* AppDelegate.m */,
+				C4F6BD691CD9932900800F44 /* ViewController.h */,
+				C4F6BD6A1CD9932900800F44 /* ViewController.m */,
+				C4F6BD6C1CD9932900800F44 /* Main.storyboard */,
+				C4F6BD6F1CD9932900800F44 /* Assets.xcassets */,
+				C4F6BD711CD9932900800F44 /* LaunchScreen.storyboard */,
+				C4F6BD741CD9932900800F44 /* Info.plist */,
+				C4F6BD631CD9932900800F44 /* Supporting Files */,
+			);
+			path = DawadCraft;
+			sourceTree = "<group>";
+		};
+		C4F6BD631CD9932900800F44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6BD641CD9932900800F44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4F6BD7C1CD9932900800F44 /* DawadCraftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6BD7D1CD9932900800F44 /* DawadCraftTests.m */,
+				C4F6BD7F1CD9932900800F44 /* Info.plist */,
+			);
+			path = DawadCraftTests;
+			sourceTree = "<group>";
+		};
+		C4F6BD871CD9932900800F44 /* DawadCraftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6BD881CD9932900800F44 /* DawadCraftUITests.m */,
+				C4F6BD8A1CD9932900800F44 /* Info.plist */,
+			);
+			path = DawadCraftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F6BD5F1CD9932900800F44 /* DawadCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F6BD8D1CD9932900800F44 /* Build configuration list for PBXNativeTarget "DawadCraft" */;
+			buildPhases = (
+				C4F6BD5C1CD9932900800F44 /* Sources */,
+				C4F6BD5D1CD9932900800F44 /* Frameworks */,
+				C4F6BD5E1CD9932900800F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DawadCraft;
+			productName = DawadCraft;
+			productReference = C4F6BD601CD9932900800F44 /* DawadCraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4F6BD781CD9932900800F44 /* DawadCraftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F6BD901CD9932900800F44 /* Build configuration list for PBXNativeTarget "DawadCraftTests" */;
+			buildPhases = (
+				C4F6BD751CD9932900800F44 /* Sources */,
+				C4F6BD761CD9932900800F44 /* Frameworks */,
+				C4F6BD771CD9932900800F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F6BD7B1CD9932900800F44 /* PBXTargetDependency */,
+			);
+			name = DawadCraftTests;
+			productName = DawadCraftTests;
+			productReference = C4F6BD791CD9932900800F44 /* DawadCraftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4F6BD831CD9932900800F44 /* DawadCraftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F6BD931CD9932900800F44 /* Build configuration list for PBXNativeTarget "DawadCraftUITests" */;
+			buildPhases = (
+				C4F6BD801CD9932900800F44 /* Sources */,
+				C4F6BD811CD9932900800F44 /* Frameworks */,
+				C4F6BD821CD9932900800F44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4F6BD861CD9932900800F44 /* PBXTargetDependency */,
+			);
+			name = DawadCraftUITests;
+			productName = DawadCraftUITests;
+			productReference = C4F6BD841CD9932900800F44 /* DawadCraftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F6BD581CD9932900800F44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fenix;
+				TargetAttributes = {
+					C4F6BD5F1CD9932900800F44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QT7P9J6NWX;
+					};
+					C4F6BD781CD9932900800F44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QT7P9J6NWX;
+						TestTargetID = C4F6BD5F1CD9932900800F44;
+					};
+					C4F6BD831CD9932900800F44 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = QT7P9J6NWX;
+						TestTargetID = C4F6BD5F1CD9932900800F44;
+					};
+				};
+			};
+			buildConfigurationList = C4F6BD5B1CD9932900800F44 /* Build configuration list for PBXProject "DawadCraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4F6BD571CD9932900800F44;
+			productRefGroup = C4F6BD611CD9932900800F44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F6BD5F1CD9932900800F44 /* DawadCraft */,
+				C4F6BD781CD9932900800F44 /* DawadCraftTests */,
+				C4F6BD831CD9932900800F44 /* DawadCraftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4F6BD5E1CD9932900800F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F6BD731CD9932900800F44 /* LaunchScreen.storyboard in Resources */,
+				C4F6BD701CD9932900800F44 /* Assets.xcassets in Resources */,
+				C4F6BD6E1CD9932900800F44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6BD771CD9932900800F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6BD821CD9932900800F44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F6BD5C1CD9932900800F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */,
+				C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */,
+				C4F6BD651CD9932900800F44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6BD751CD9932900800F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F6BD7E1CD9932900800F44 /* DawadCraftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F6BD801CD9932900800F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F6BD891CD9932900800F44 /* DawadCraftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4F6BD7B1CD9932900800F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F6BD5F1CD9932900800F44 /* DawadCraft */;
+			targetProxy = C4F6BD7A1CD9932900800F44 /* PBXContainerItemProxy */;
+		};
+		C4F6BD861CD9932900800F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F6BD5F1CD9932900800F44 /* DawadCraft */;
+			targetProxy = C4F6BD851CD9932900800F44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4F6BD6C1CD9932900800F44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F6BD6D1CD9932900800F44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4F6BD711CD9932900800F44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4F6BD721CD9932900800F44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4F6BD8B1CD9932900800F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4F6BD8C1CD9932900800F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4F6BD8E1CD9932900800F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DawadCraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.DawadCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4F6BD8F1CD9932900800F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DawadCraft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.DawadCraft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4F6BD911CD9932900800F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DawadCraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.DawadCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DawadCraft.app/DawadCraft";
+			};
+			name = Debug;
+		};
+		C4F6BD921CD9932900800F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DawadCraftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.DawadCraftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DawadCraft.app/DawadCraft";
+			};
+			name = Release;
+		};
+		C4F6BD941CD9932900800F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DawadCraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.DawadCraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DawadCraft;
+			};
+			name = Debug;
+		};
+		C4F6BD951CD9932900800F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DawadCraftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yidahulian.DawadCraftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DawadCraft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F6BD5B1CD9932900800F44 /* Build configuration list for PBXProject "DawadCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F6BD8B1CD9932900800F44 /* Debug */,
+				C4F6BD8C1CD9932900800F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F6BD8D1CD9932900800F44 /* Build configuration list for PBXNativeTarget "DawadCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F6BD8E1CD9932900800F44 /* Debug */,
+				C4F6BD8F1CD9932900800F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4F6BD901CD9932900800F44 /* Build configuration list for PBXNativeTarget "DawadCraftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F6BD911CD9932900800F44 /* Debug */,
+				C4F6BD921CD9932900800F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4F6BD931CD9932900800F44 /* Build configuration list for PBXNativeTarget "DawadCraftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F6BD941CD9932900800F44 /* Debug */,
+				C4F6BD951CD9932900800F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F6BD581CD9932900800F44 /* Project object */;
+}
