@@ -18,6 +18,7 @@
 }
 */
 
+
 -(void)awakeFromNib
 {
     self.viewWithBtn = @{@"2001":@"CompanyIntroduceView",@"2002":@"GuideView",@"2003":@"FunctionView",@"2004":@"UpdateView"};
@@ -29,15 +30,17 @@
     if (!self.genericVW) {
         return;
     }
+   
     UIButton *btn = (UIButton*)sender;
     NSString *key = [NSString stringWithFormat:@"%lu",btn.tag];
     NSString *value = [self.viewWithBtn objectForKey:key];
     const char *className = [value cStringUsingEncoding:NSASCIIStringEncoding];
     Class newClass = objc_getClass(className);
-    id instance =[[newClass alloc] init];
-    [instance awakeFromNib];
+    id newView = [[newClass alloc] initWithFrame:self.genericVW.frame];
+    [newView awakeFromNib];
+    [self.superview addSubview:newView];
     
-    }
+       }
 
 
 - (IBAction)updateBtn:(id)sender {
@@ -47,13 +50,15 @@
     if (!self.genericVW) {
         return;
     }
+    NSLog(@"%@",self.genericVW);
     UIButton *btn = (UIButton*)sender;
     NSString *key = [NSString stringWithFormat:@"%lu",btn.tag];
     NSString *value = [self.viewWithBtn objectForKey:key];
     const char *className = [value cStringUsingEncoding:NSASCIIStringEncoding];
     Class newClass = objc_getClass(className);
-    id instance =[[newClass alloc] init];
-    [instance awakeFromNib];
+    id newView = [[newClass alloc] initWithFrame:self.genericVW.frame];
+    [self.superview addSubview:newView];
+    [newView awakeFromNib];
 }
 - (IBAction)functionBtn:(id)sender {
     self.selectedBtn = sender;
