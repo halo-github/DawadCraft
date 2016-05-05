@@ -7,7 +7,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonRow">
             <connections>
+                <outlet property="IntroduceBtn" destination="dEv-Lo-9NJ" id="MKr-L0-uGO"/>
+                <outlet property="functionBtn" destination="s12-oj-DsS" id="rT9-Le-N40"/>
+                <outlet property="guideBtn" destination="TI3-KL-zPa" id="tNt-AJ-O4l"/>
                 <outlet property="subview" destination="iN0-l3-epB" id="8Wy-Sa-wfV"/>
+                <outlet property="updateBtn" destination="wOB-6h-70S" id="Fnc-Xo-HYq"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -15,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="188" height="436"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEv-Lo-9NJ">
+                <button opaque="NO" tag="2001" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEv-Lo-9NJ">
                     <rect key="frame" x="0.0" y="0.0" width="188" height="55"/>
                     <color key="backgroundColor" red="0.16938922572411863" green="1" blue="0.82761881070614263" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
@@ -26,29 +30,38 @@
                         <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="6GV-0i-sOB"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI3-KL-zPa">
+                <button opaque="NO" tag="2002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI3-KL-zPa">
                     <rect key="frame" x="0.0" y="55" width="188" height="55"/>
                     <color key="backgroundColor" red="0.16938922570000001" green="1" blue="0.82761881069999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="jNm-rM-Dbm"/>
                     </constraints>
                     <state key="normal" title="指南文档"/>
+                    <connections>
+                        <action selector="guideBtn:" destination="-1" eventType="touchUpInside" id="ckE-yh-2CF"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s12-oj-DsS">
+                <button opaque="NO" tag="2003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s12-oj-DsS">
                     <rect key="frame" x="0.0" y="110" width="188" height="55"/>
                     <color key="backgroundColor" red="0.16938922570000001" green="1" blue="0.82761881069999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="hUb-2a-mvK"/>
                     </constraints>
                     <state key="normal" title="功能介绍"/>
+                    <connections>
+                        <action selector="functionBtn:" destination="-1" eventType="touchUpInside" id="tsi-NS-ev7"/>
+                    </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOB-6h-70S">
+                <button opaque="NO" tag="2004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOB-6h-70S">
                     <rect key="frame" x="0.0" y="165" width="188" height="55"/>
                     <color key="backgroundColor" red="0.16938922570000001" green="1" blue="0.82761881069999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="55" id="vRm-q7-p2p"/>
                     </constraints>
                     <state key="normal" title="版本更新"/>
+                    <connections>
+                        <action selector="updateBtn:" destination="-1" eventType="touchUpInside" id="4dU-5a-uzK"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -70,7 +83,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-256" y="301"/>
+            <point key="canvasLocation" x="-560" y="225"/>
         </view>
     </objects>
 </document>

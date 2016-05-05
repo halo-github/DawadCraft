@@ -230,11 +230,12 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="buttons" destination="hZL-5X-ve0" id="Zlx-cR-4Py"/>
+                        <outlet property="genericView" destination="SYd-Pt-hMy" id="OcN-W1-az6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJX-X8-wwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-183" y="1207.5"/>
+            <point key="canvasLocation" x="-443" y="1186.5"/>
         </scene>
     </scenes>
 </document>

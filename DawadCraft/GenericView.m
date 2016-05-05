@@ -1,14 +1,14 @@
 //
-//  CompanyIntroduceView.m
+//  GenericView.m
 //  DawadCraft
 //
 //  Created by Fenix on 16/5/5.
 //  Copyright © 2016年 Fenix. All rights reserved.
 //
 
-#import "CompanyIntroduceView.h"
+#import "GenericView.h"
 
-@implementation CompanyIntroduceView
+@implementation GenericView
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -17,10 +17,5 @@
     // Drawing code
 }
 */
--(void)awakeFromNib
-{
-    [[NSBundle mainBundle] loadNibNamed:@"CompanyIntroduceView" owner:self options:nil];
-    [self.subview setFrame:self.bounds];
-    [self addSubview:self.subview];
-}
+
 @end

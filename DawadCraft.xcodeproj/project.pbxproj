@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C475CD9D1CD9CE9B00A5A140 /* View+Xib in Resources */ = {isa = PBXBuildFile; fileRef = C475CD9C1CD9CE9B00A5A140 /* View+Xib */; };
 		C475CD9F1CD9CEE000A5A140 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = C475CD9E1CD9CEE000A5A140 /* Controller */; };
 		C475CDA51CD9CFBA00A5A140 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDA41CD9CFBA00A5A140 /* HelpVC.m */; };
 		C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */; };
 		C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDB51CD9E3E800A5A140 /* ButtonRow.m */; };
 		C475CDBA1CD9E7CE00A5A140 /* ButtonRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */; };
-		C47DA64F1CD9F621005612EA /* CompanyIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47DA64E1CD9F621005612EA /* CompanyIntroduceView.m */; };
-		C47DA6511CD9F63B005612EA /* CompanyIntroduceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47DA6501CD9F63B005612EA /* CompanyIntroduceView.xib */; };
 		C4F6BD651CD9932900800F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD641CD9932900800F44 /* main.m */; };
 		C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD671CD9932900800F44 /* AppDelegate.m */; };
 		C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD6A1CD9932900800F44 /* ViewController.m */; };
@@ -23,6 +20,11 @@
 		C4F6BD731CD9932900800F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F6BD711CD9932900800F44 /* LaunchScreen.storyboard */; };
 		C4F6BD7E1CD9932900800F44 /* DawadCraftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD7D1CD9932900800F44 /* DawadCraftTests.m */; };
 		C4F6BD891CD9932900800F44 /* DawadCraftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD881CD9932900800F44 /* DawadCraftUITests.m */; };
+		C4FA2E071CDAD7B400739B33 /* GenericView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA2E061CDAD7B400739B33 /* GenericView.m */; };
+		C4FA2E0C1CDB17AA00739B33 /* CompanyIntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */; };
+		C4FA2E0E1CDB186D00739B33 /* CompanyIntroduceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */; };
+		C4FA2E101CDB2A8F00739B33 /* GuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */; };
+		C4FA2E131CDB2AB500739B33 /* GuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA2E121CDB2AB500739B33 /* GuideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C475CD9C1CD9CE9B00A5A140 /* View+Xib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "View+Xib"; sourceTree = "<group>"; };
 		C475CD9E1CD9CEE000A5A140 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
 		C475CDA31CD9CFBA00A5A140 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVC.h; sourceTree = "<group>"; };
 		C475CDA41CD9CFBA00A5A140 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVC.m; sourceTree = "<group>"; };
@@ -52,9 +53,6 @@
 		C475CDB41CD9E3E800A5A140 /* ButtonRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRow.h; sourceTree = "<group>"; };
 		C475CDB51CD9E3E800A5A140 /* ButtonRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRow.m; sourceTree = "<group>"; };
 		C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonRow.xib; sourceTree = "<group>"; };
-		C47DA64D1CD9F621005612EA /* CompanyIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyIntroduceView.h; sourceTree = "<group>"; };
-		C47DA64E1CD9F621005612EA /* CompanyIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyIntroduceView.m; sourceTree = "<group>"; };
-		C47DA6501CD9F63B005612EA /* CompanyIntroduceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyIntroduceView.xib; sourceTree = "<group>"; };
 		C4F6BD601CD9932900800F44 /* DawadCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawadCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6BD641CD9932900800F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F6BD661CD9932900800F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +69,14 @@
 		C4F6BD841CD9932900800F44 /* DawadCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawadCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6BD881CD9932900800F44 /* DawadCraftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DawadCraftUITests.m; sourceTree = "<group>"; };
 		C4F6BD8A1CD9932900800F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FA2E051CDAD7B400739B33 /* GenericView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericView.h; sourceTree = "<group>"; };
+		C4FA2E061CDAD7B400739B33 /* GenericView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericView.m; sourceTree = "<group>"; };
+		C4FA2E0A1CDB17AA00739B33 /* CompanyIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyIntroduceView.h; sourceTree = "<group>"; };
+		C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyIntroduceView.m; sourceTree = "<group>"; };
+		C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyIntroduceView.xib; sourceTree = "<group>"; };
+		C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideView.xib; sourceTree = "<group>"; };
+		C4FA2E111CDB2AB500739B33 /* GuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideView.h; sourceTree = "<group>"; };
+		C4FA2E121CDB2AB500739B33 /* GuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				C475CD9E1CD9CEE000A5A140 /* Controller */,
-				C475CD9C1CD9CE9B00A5A140 /* View+Xib */,
 				C4F6BD661CD9932900800F44 /* AppDelegate.h */,
 				C4F6BD671CD9932900800F44 /* AppDelegate.m */,
 				C4F6BD691CD9932900800F44 /* ViewController.h */,
@@ -147,9 +152,14 @@
 				C475CDB41CD9E3E800A5A140 /* ButtonRow.h */,
 				C475CDB51CD9E3E800A5A140 /* ButtonRow.m */,
 				C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */,
-				C47DA64D1CD9F621005612EA /* CompanyIntroduceView.h */,
-				C47DA64E1CD9F621005612EA /* CompanyIntroduceView.m */,
-				C47DA6501CD9F63B005612EA /* CompanyIntroduceView.xib */,
+				C4FA2E051CDAD7B400739B33 /* GenericView.h */,
+				C4FA2E061CDAD7B400739B33 /* GenericView.m */,
+				C4FA2E0A1CDB17AA00739B33 /* CompanyIntroduceView.h */,
+				C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */,
+				C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */,
+				C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */,
+				C4FA2E111CDB2AB500739B33 /* GuideView.h */,
+				C4FA2E121CDB2AB500739B33 /* GuideView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -278,10 +288,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FA2E0E1CDB186D00739B33 /* CompanyIntroduceView.xib in Resources */,
 				C475CDBA1CD9E7CE00A5A140 /* ButtonRow.xib in Resources */,
-				C47DA6511CD9F63B005612EA /* CompanyIntroduceView.xib in Resources */,
+				C4FA2E101CDB2A8F00739B33 /* GuideView.xib in Resources */,
 				C4F6BD731CD9932900800F44 /* LaunchScreen.storyboard in Resources */,
-				C475CD9D1CD9CE9B00A5A140 /* View+Xib in Resources */,
 				C4F6BD701CD9932900800F44 /* Assets.xcassets in Resources */,
 				C475CD9F1CD9CEE000A5A140 /* Controller in Resources */,
 				C4F6BD6E1CD9932900800F44 /* Main.storyboard in Resources */,
@@ -309,10 +319,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FA2E0C1CDB17AA00739B33 /* CompanyIntroduceView.m in Sources */,
+				C4FA2E071CDAD7B400739B33 /* GenericView.m in Sources */,
 				C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */,
+				C4FA2E131CDB2AB500739B33 /* GuideView.m in Sources */,
 				C475CDA51CD9CFBA00A5A140 /* HelpVC.m in Sources */,
 				C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */,
-				C47DA64F1CD9F621005612EA /* CompanyIntroduceView.m in Sources */,
 				C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */,
 				C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */,
 				C4F6BD651CD9932900800F44 /* main.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "ButtonRow.h"
-
+#import <objc/runtime.h>
 @implementation ButtonRow
 
 /*
@@ -17,13 +17,48 @@
     // Drawing code
 }
 */
+
 -(void)awakeFromNib
 {
+    self.viewWithBtn = @{@"2001":@"CompanyIntroduceView",@"2002":@"GuideView",@"2003":@"FunctionView",@"2004":@"UpdateView"};
     [[NSBundle mainBundle] loadNibNamed:@"ButtonRow" owner:self options:nil];
     [self.subview setFrame:self.bounds];
     [self addSubview:self.subview];
 }
 - (IBAction)IntroduceBtn:(id)sender {
+    if (!self.genericVW) {
+        return;
+    }
+    UIButton *btn = (UIButton*)sender;
+    NSString *key = [NSString stringWithFormat:@"%lu",btn.tag];
+    NSString *value = [self.viewWithBtn objectForKey:key];
+    const char *className = [value cStringUsingEncoding:NSASCIIStringEncoding];
+    Class newClass = objc_getClass(className);
+    id instance =[[newClass alloc] init];
+    [instance awakeFromNib];
     
+    }
+
+
+- (IBAction)updateBtn:(id)sender {
+    
+}
+- (IBAction)guideBtn:(id)sender {
+    if (!self.genericVW) {
+        return;
+    }
+    UIButton *btn = (UIButton*)sender;
+    NSString *key = [NSString stringWithFormat:@"%lu",btn.tag];
+    NSString *value = [self.viewWithBtn objectForKey:key];
+    const char *className = [value cStringUsingEncoding:NSASCIIStringEncoding];
+    Class newClass = objc_getClass(className);
+    id instance =[[newClass alloc] init];
+    [instance awakeFromNib];
+}
+- (IBAction)functionBtn:(id)sender {
+    self.selectedBtn = sender;
+    if (self.delegate&&[self.delegate respondsToSelector:@selector(selected:)]) {
+        [self.delegate selected:self.selectedBtn];
+    }
 }
 @end

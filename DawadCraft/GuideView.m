@@ -1,14 +1,14 @@
 //
-//  CompanyIntroduceView.m
+//  GuideView.m
 //  DawadCraft
 //
 //  Created by Fenix on 16/5/5.
 //  Copyright © 2016年 Fenix. All rights reserved.
 //
 
-#import "CompanyIntroduceView.h"
+#import "GuideView.h"
 
-@implementation CompanyIntroduceView
+@implementation GuideView
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -19,7 +19,7 @@
 */
 -(void)awakeFromNib
 {
-    [[NSBundle mainBundle] loadNibNamed:@"CompanyIntroduceView" owner:self options:nil];
+    [[NSBundle mainBundle] loadNibNamed:@"GuideView" owner:self options:nil];
     [self.subview setFrame:self.bounds];
     [self addSubview:self.subview];
 }

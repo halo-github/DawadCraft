@@ -8,6 +8,8 @@
 
 #import "HelpVC.h"
 #import "ButtonRow.h"
+#import "CompanyIntroduceView.h"
+#import "GuideView.h"
 @interface HelpVC ()
 
 @end
@@ -16,8 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-
+    self.buttons.delegate = self;
+    self.buttons.genericVW = self.genericView;
 }
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{
@@ -29,7 +31,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)selected:(UIButton *)button
+{
+//    [self.companyIntroduceVW awakeFromNib];
+//    [(GuideView*)self.companyIntroduceVW awakeFromNib];
+}
 /*
 #pragma mark - Navigation
 

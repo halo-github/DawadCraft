@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "ButtonRow.h"
-@interface HelpVC : UIViewController
+#import "CompanyIntroduceView.h"
+@interface HelpVC : UIViewController<ButtonRowDelegate>
 @property (weak, nonatomic) IBOutlet ButtonRow *buttons;
+@property (weak, nonatomic) IBOutlet UIView *genericView;
+
+
 
 
 @end

@@ -1,5 +1,5 @@
 //
-//  CompanyIntroduceView.h
+//  GuideView.h
 //  DawadCraft
 //
 //  Created by Fenix on 16/5/5.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CompanyIntroduceView : UIView
+@interface GuideView : UIView
 @property (strong, nonatomic) IBOutlet UIView *subview;
+
 
 @end
