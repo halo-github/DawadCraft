@@ -24,6 +24,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *updateBtn;
 @property (nonatomic, strong) UIButton *selectedBtn;
 @property (nonatomic, weak) id <ButtonRowDelegate>delegate;
-@property (nonatomic)CGRect *genericViewFrame;
+@property (nonatomic)CGRect genericViewFrame;
 @property (nonatomic, strong) UIView *genericVW;
 @end

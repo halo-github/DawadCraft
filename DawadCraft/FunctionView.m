@@ -1,14 +1,14 @@
 //
-//  CompanyIntroduceView.m
+//  FunctionView.m
 //  DawadCraft
 //
-//  Created by Fenix on 16/5/5.
+//  Created by Fenix on 16/5/6.
 //  Copyright © 2016年 Fenix. All rights reserved.
 //
 
-#import "CompanyIntroduceView.h"
+#import "FunctionView.h"
 
-@implementation CompanyIntroduceView
+@implementation FunctionView
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -23,7 +23,7 @@
     [self.subview setFrame:self.bounds];
     [self addSubview:self.subview];
 }
-//
+
 -(void)dealloc
 {
     [self.subview removeFromSuperview];

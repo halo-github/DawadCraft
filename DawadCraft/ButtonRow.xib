@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonRow">
@@ -27,7 +27,7 @@
                     </constraints>
                     <state key="normal" title="公司介绍"/>
                     <connections>
-                        <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="haC-4Q-Joi"/>
+                        <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="vxE-nL-cxW"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="2002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TI3-KL-zPa">
@@ -38,7 +38,7 @@
                     </constraints>
                     <state key="normal" title="指南文档"/>
                     <connections>
-                        <action selector="guideBtn:" destination="-1" eventType="touchUpInside" id="ckE-yh-2CF"/>
+                        <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="HWq-Ka-m3W"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="2003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s12-oj-DsS">
@@ -49,7 +49,7 @@
                     </constraints>
                     <state key="normal" title="功能介绍"/>
                     <connections>
-                        <action selector="functionBtn:" destination="-1" eventType="touchUpInside" id="tsi-NS-ev7"/>
+                        <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="Ho6-eW-3PJ"/>
                     </connections>
                 </button>
                 <button opaque="NO" tag="2004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOB-6h-70S">
@@ -60,8 +60,7 @@
                     </constraints>
                     <state key="normal" title="版本更新"/>
                     <connections>
-                        <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="Npc-tA-oyg"/>
-                        <action selector="updateBtn:" destination="-1" eventType="touchUpInside" id="4dU-5a-uzK"/>
+                        <action selector="IntroduceBtn:" destination="-1" eventType="touchUpInside" id="r7R-xq-1nK"/>
                     </connections>
                 </button>
             </subviews>
@@ -84,7 +83,7 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-560" y="225"/>
+            <point key="canvasLocation" x="-713" y="191"/>
         </view>
     </objects>
 </document>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -170,18 +170,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SYd-Pt-hMy" firstAttribute="leading" secondItem="hZL-5X-ve0" secondAttribute="trailing" constant="-1" id="5BR-pi-zoF"/>
                             <constraint firstItem="TsV-AB-KvU" firstAttribute="height" secondItem="Fyh-D5-Z63" secondAttribute="height" multiplier="1:8" id="Fb7-wu-liJ"/>
                             <constraint firstItem="hZL-5X-ve0" firstAttribute="width" secondItem="TsV-AB-KvU" secondAttribute="width" id="I0Z-iX-c2e"/>
                             <constraint firstItem="hZL-5X-ve0" firstAttribute="top" secondItem="TsV-AB-KvU" secondAttribute="bottom" id="IPR-mS-zzY"/>
                             <constraint firstItem="TsV-AB-KvU" firstAttribute="leading" secondItem="Fyh-D5-Z63" secondAttribute="leadingMargin" constant="-20" id="Nym-WH-3F8"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="SYd-Pt-hMy" secondAttribute="trailing" constant="-20" id="T25-1t-2B3"/>
+                            <constraint firstItem="SYd-Pt-hMy" firstAttribute="top" secondItem="Fyh-D5-Z63" secondAttribute="topMargin" id="aZc-7Q-HYn"/>
                             <constraint firstItem="TsV-AB-KvU" firstAttribute="top" secondItem="Fyh-D5-Z63" secondAttribute="topMargin" id="bIb-Jc-hZI"/>
                             <constraint firstItem="W6k-6o-Hgg" firstAttribute="top" secondItem="hZL-5X-ve0" secondAttribute="bottom" id="cUO-b5-8vK"/>
+                            <constraint firstItem="W6k-6o-Hgg" firstAttribute="top" secondItem="SYd-Pt-hMy" secondAttribute="bottom" id="cVp-OX-my9"/>
+                            <constraint firstItem="SYd-Pt-hMy" firstAttribute="leading" secondItem="hZL-5X-ve0" secondAttribute="trailing" constant="1" id="eLU-8J-tKY">
+                                <variation key="heightClass=compact" constant="-1"/>
+                            </constraint>
                             <constraint firstItem="hZL-5X-ve0" firstAttribute="leading" secondItem="Fyh-D5-Z63" secondAttribute="leadingMargin" constant="-20" id="gf5-zu-A4v"/>
-                            <constraint firstItem="SYd-Pt-hMy" firstAttribute="top" secondItem="Fyh-D5-Z63" secondAttribute="topMargin" id="qTN-tq-RH3"/>
-                            <constraint firstItem="TsV-AB-KvU" firstAttribute="width" secondItem="Fyh-D5-Z63" secondAttribute="width" multiplier="1:8" id="tOA-j0-h5I"/>
-                            <constraint firstItem="W6k-6o-Hgg" firstAttribute="top" secondItem="SYd-Pt-hMy" secondAttribute="bottom" id="wh6-TW-pyw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SYd-Pt-hMy" secondAttribute="trailing" constant="-20" id="naM-KS-pBt"/>
+                            <constraint firstItem="TsV-AB-KvU" firstAttribute="width" secondItem="Fyh-D5-Z63" secondAttribute="width" multiplier="1:7" id="tOA-j0-h5I"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -190,18 +192,18 @@
                                 <exclude reference="SYd-Pt-hMy"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="cUO-b5-8vK"/>
-                                <exclude reference="wh6-TW-pyw"/>
                                 <exclude reference="Fb7-wu-liJ"/>
                                 <exclude reference="Nym-WH-3F8"/>
                                 <exclude reference="bIb-Jc-hZI"/>
                                 <exclude reference="tOA-j0-h5I"/>
-                                <exclude reference="5BR-pi-zoF"/>
-                                <exclude reference="T25-1t-2B3"/>
-                                <exclude reference="qTN-tq-RH3"/>
                                 <exclude reference="I0Z-iX-c2e"/>
                                 <exclude reference="IPR-mS-zzY"/>
                                 <exclude reference="gf5-zu-A4v"/>
+                                <exclude reference="aZc-7Q-HYn"/>
+                                <exclude reference="eLU-8J-tKY"/>
+                                <exclude reference="naM-KS-pBt"/>
+                                <exclude reference="cUO-b5-8vK"/>
+                                <exclude reference="cVp-OX-my9"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -211,18 +213,18 @@
                                 <include reference="SYd-Pt-hMy"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="cUO-b5-8vK"/>
-                                <include reference="wh6-TW-pyw"/>
                                 <include reference="Fb7-wu-liJ"/>
                                 <include reference="Nym-WH-3F8"/>
                                 <include reference="bIb-Jc-hZI"/>
                                 <include reference="tOA-j0-h5I"/>
-                                <include reference="5BR-pi-zoF"/>
-                                <include reference="T25-1t-2B3"/>
-                                <include reference="qTN-tq-RH3"/>
                                 <include reference="I0Z-iX-c2e"/>
                                 <include reference="IPR-mS-zzY"/>
                                 <include reference="gf5-zu-A4v"/>
+                                <include reference="aZc-7Q-HYn"/>
+                                <include reference="eLU-8J-tKY"/>
+                                <include reference="naM-KS-pBt"/>
+                                <include reference="cUO-b5-8vK"/>
+                                <include reference="cVp-OX-my9"/>
                             </mask>
                         </variation>
                     </view>
@@ -235,7 +237,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mJX-X8-wwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-443" y="1186.5"/>
+            <point key="canvasLocation" x="-289" y="1183.5"/>
         </scene>
     </scenes>
 </document>

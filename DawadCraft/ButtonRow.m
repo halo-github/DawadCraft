@@ -30,40 +30,22 @@
     if (!self.genericVW) {
         return;
     }
-   
+//清理原来的子视图
+    for (UIView *subV in self.genericVW.subviews) {
+        [subV removeFromSuperview];
+    }
+//runtime动态获取新类名
     UIButton *btn = (UIButton*)sender;
     NSString *key = [NSString stringWithFormat:@"%lu",btn.tag];
     NSString *value = [self.viewWithBtn objectForKey:key];
     const char *className = [value cStringUsingEncoding:NSASCIIStringEncoding];
     Class newClass = objc_getClass(className);
-    id newView = [[newClass alloc] initWithFrame:self.genericVW.frame];
+//新视图加载
+    id newView = [[newClass alloc] initWithFrame:self.genericVW.bounds];
     [newView awakeFromNib];
-    [self.superview addSubview:newView];
-    
+    [self.genericVW addSubview:newView];
        }
 
 
-- (IBAction)updateBtn:(id)sender {
-    
-}
-- (IBAction)guideBtn:(id)sender {
-    if (!self.genericVW) {
-        return;
-    }
-    NSLog(@"%@",self.genericVW);
-    UIButton *btn = (UIButton*)sender;
-    NSString *key = [NSString stringWithFormat:@"%lu",btn.tag];
-    NSString *value = [self.viewWithBtn objectForKey:key];
-    const char *className = [value cStringUsingEncoding:NSASCIIStringEncoding];
-    Class newClass = objc_getClass(className);
-    id newView = [[newClass alloc] initWithFrame:self.genericVW.frame];
-    [self.superview addSubview:newView];
-    [newView awakeFromNib];
-}
-- (IBAction)functionBtn:(id)sender {
-    self.selectedBtn = sender;
-    if (self.delegate&&[self.delegate respondsToSelector:@selector(selected:)]) {
-        [self.delegate selected:self.selectedBtn];
-    }
-}
+
 @end

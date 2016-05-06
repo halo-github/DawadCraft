@@ -19,8 +19,14 @@
 */
 -(void)awakeFromNib
 {
-    [[NSBundle mainBundle] loadNibNamed:@"UpdateView" owner:self options:nil];
-    [self.superview setFrame:self.bounds];
+    [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil];
+    [self.subview setFrame:self.bounds];
     [self addSubview:self.subview];
+}
+
+-(void)dealloc
+{
+    [self.subview removeFromSuperview];
+    self.subview = nil;
 }
 @end

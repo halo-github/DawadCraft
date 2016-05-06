@@ -13,6 +13,8 @@
 		C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */; };
 		C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDB51CD9E3E800A5A140 /* ButtonRow.m */; };
 		C475CDBA1CD9E7CE00A5A140 /* ButtonRow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */; };
+		C4877B301CDC664F00A830BF /* FunctionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4877B2F1CDC664F00A830BF /* FunctionView.xib */; };
+		C4877B331CDC687100A830BF /* FunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4877B321CDC687100A830BF /* FunctionView.m */; };
 		C4F6BD651CD9932900800F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD641CD9932900800F44 /* main.m */; };
 		C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD671CD9932900800F44 /* AppDelegate.m */; };
 		C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F6BD6A1CD9932900800F44 /* ViewController.m */; };
@@ -56,6 +58,9 @@
 		C475CDB41CD9E3E800A5A140 /* ButtonRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRow.h; sourceTree = "<group>"; };
 		C475CDB51CD9E3E800A5A140 /* ButtonRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRow.m; sourceTree = "<group>"; };
 		C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonRow.xib; sourceTree = "<group>"; };
+		C4877B2F1CDC664F00A830BF /* FunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionView.xib; sourceTree = "<group>"; };
+		C4877B311CDC687100A830BF /* FunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionView.h; sourceTree = "<group>"; };
+		C4877B321CDC687100A830BF /* FunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionView.m; sourceTree = "<group>"; };
 		C4F6BD601CD9932900800F44 /* DawadCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawadCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6BD641CD9932900800F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F6BD661CD9932900800F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -165,6 +170,9 @@
 				0391FE311CDBA3AB00EEE720 /* UpdateView.h */,
 				0391FE321CDBA3AB00EEE720 /* UpdateView.m */,
 				0391FE341CDBA3B900EEE720 /* UpdateView.xib */,
+				C4877B2F1CDC664F00A830BF /* FunctionView.xib */,
+				C4877B311CDC687100A830BF /* FunctionView.h */,
+				C4877B321CDC687100A830BF /* FunctionView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -295,6 +303,7 @@
 			files = (
 				0391FE351CDBA3B900EEE720 /* UpdateView.xib in Resources */,
 				C4FA2E0E1CDB186D00739B33 /* CompanyIntroduceView.xib in Resources */,
+				C4877B301CDC664F00A830BF /* FunctionView.xib in Resources */,
 				C475CDBA1CD9E7CE00A5A140 /* ButtonRow.xib in Resources */,
 				C4FA2E101CDB2A8F00739B33 /* GuideView.xib in Resources */,
 				C4F6BD731CD9932900800F44 /* LaunchScreen.storyboard in Resources */,
@@ -326,6 +335,7 @@
 			files = (
 				C4FA2E0C1CDB17AA00739B33 /* CompanyIntroduceView.m in Sources */,
 				C4FA2E071CDAD7B400739B33 /* GenericView.m in Sources */,
+				C4877B331CDC687100A830BF /* FunctionView.m in Sources */,
 				C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */,
 				0391FE331CDBA3AB00EEE720 /* UpdateView.m in Sources */,
 				C4FA2E131CDB2AB500739B33 /* GuideView.m in Sources */,
