@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class MPMoviePlayerController;
 @interface ViewController : UIViewController
-
+@property (nonatomic, strong) MPMoviePlayerController* movieCtrl ;
+@property (strong, nonatomic) IBOutlet UIView *backView;
 
 @end
 

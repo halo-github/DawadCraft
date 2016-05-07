@@ -20,6 +20,10 @@
     [super viewDidLoad];
     self.buttons.delegate = self;
     self.buttons.genericVW = self.genericView;
+//    CGRect rect = self.genericView.frame;
+//    self.genericView = [[CompanyIntroduceView alloc] initWithFrame:rect];
+//    [self.genericView awakeFromNib];
+//    [self.view addSubview:self.genericView];
 }
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{

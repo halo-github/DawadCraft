@@ -30,6 +30,7 @@
     if (!self.genericVW) {
         return;
     }
+
 //清理原来的子视图
     for (UIView *subV in self.genericVW.subviews) {
         [subV removeFromSuperview];
@@ -44,6 +45,10 @@
     id newView = [[newClass alloc] initWithFrame:self.genericVW.bounds];
     [newView awakeFromNib];
     [self.genericVW addSubview:newView];
+    //    更改按钮状态
+    self.selectedBtn.selected = NO;
+    self.selectedBtn = btn;
+    self.selectedBtn.selected = YES;
        }
 
 

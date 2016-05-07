@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="188" height="436"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" tag="2001" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEv-Lo-9NJ">
+                <button opaque="NO" tag="2001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEv-Lo-9NJ">
                     <rect key="frame" x="0.0" y="0.0" width="188" height="55"/>
                     <color key="backgroundColor" red="0.16938922572411863" green="1" blue="0.82761881070614263" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>

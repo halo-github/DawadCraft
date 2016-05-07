@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		0391FE331CDBA3AB00EEE720 /* UpdateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391FE321CDBA3AB00EEE720 /* UpdateView.m */; };
 		0391FE351CDBA3B900EEE720 /* UpdateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0391FE341CDBA3B900EEE720 /* UpdateView.xib */; };
+		C40156301CDDE8880036A691 /* Never give up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C401562F1CDDE8880036A691 /* Never give up.mp4 */; };
+		C40F23221CDD8EA60003F639 /* bz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C40F231F1CDD8EA60003F639 /* bz.jpg */; };
+		C40F23241CDD8EA60003F639 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = C40F23211CDD8EA60003F639 /* LOGO.png */; };
+		C40F23271CDDC2430003F639 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40F23261CDDC2430003F639 /* MapKit.framework */; };
+		C40F232A1CDDC2E40003F639 /* MKMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F23291CDDC2E40003F639 /* MKMapVC.m */; };
 		C475CDA51CD9CFBA00A5A140 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDA41CD9CFBA00A5A140 /* HelpVC.m */; };
 		C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */; };
 		C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDB51CD9E3E800A5A140 /* ButtonRow.m */; };
@@ -48,19 +53,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0391FE311CDBA3AB00EEE720 /* UpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateView.h; sourceTree = "<group>"; };
-		0391FE321CDBA3AB00EEE720 /* UpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateView.m; sourceTree = "<group>"; };
-		0391FE341CDBA3B900EEE720 /* UpdateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateView.xib; sourceTree = "<group>"; };
-		C475CDA31CD9CFBA00A5A140 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpVC.h; sourceTree = "<group>"; };
-		C475CDA41CD9CFBA00A5A140 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpVC.m; sourceTree = "<group>"; };
-		C475CDAC1CD9D5C200A5A140 /* cornerRadiusBtn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cornerRadiusBtn1.h; sourceTree = "<group>"; };
-		C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cornerRadiusBtn1.m; sourceTree = "<group>"; };
-		C475CDB41CD9E3E800A5A140 /* ButtonRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonRow.h; sourceTree = "<group>"; };
-		C475CDB51CD9E3E800A5A140 /* ButtonRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonRow.m; sourceTree = "<group>"; };
-		C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonRow.xib; sourceTree = "<group>"; };
-		C4877B2F1CDC664F00A830BF /* FunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionView.xib; sourceTree = "<group>"; };
-		C4877B311CDC687100A830BF /* FunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionView.h; sourceTree = "<group>"; };
-		C4877B321CDC687100A830BF /* FunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionView.m; sourceTree = "<group>"; };
+		0391FE311CDBA3AB00EEE720 /* UpdateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateView.h; path = ../UpdateView.h; sourceTree = "<group>"; };
+		0391FE321CDBA3AB00EEE720 /* UpdateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateView.m; path = ../UpdateView.m; sourceTree = "<group>"; };
+		0391FE341CDBA3B900EEE720 /* UpdateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpdateView.xib; path = ../UpdateView.xib; sourceTree = "<group>"; };
+		C401562F1CDDE8880036A691 /* Never give up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Never give up.mp4"; sourceTree = "<group>"; };
+		C40F231F1CDD8EA60003F639 /* bz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bz.jpg; path = Resource/bz.jpg; sourceTree = "<group>"; };
+		C40F23211CDD8EA60003F639 /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO.png; path = Resource/LOGO.png; sourceTree = "<group>"; };
+		C40F23261CDDC2430003F639 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C40F23281CDDC2E40003F639 /* MKMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMapVC.h; sourceTree = "<group>"; };
+		C40F23291CDDC2E40003F639 /* MKMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMapVC.m; sourceTree = "<group>"; };
+		C475CDA31CD9CFBA00A5A140 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpVC.h; path = ../HelpVC.h; sourceTree = "<group>"; };
+		C475CDA41CD9CFBA00A5A140 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpVC.m; path = ../HelpVC.m; sourceTree = "<group>"; };
+		C475CDAC1CD9D5C200A5A140 /* cornerRadiusBtn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cornerRadiusBtn1.h; path = ../cornerRadiusBtn1.h; sourceTree = "<group>"; };
+		C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cornerRadiusBtn1.m; path = ../cornerRadiusBtn1.m; sourceTree = "<group>"; };
+		C475CDB41CD9E3E800A5A140 /* ButtonRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonRow.h; path = ../ButtonRow.h; sourceTree = "<group>"; };
+		C475CDB51CD9E3E800A5A140 /* ButtonRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonRow.m; path = ../ButtonRow.m; sourceTree = "<group>"; };
+		C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ButtonRow.xib; path = ../ButtonRow.xib; sourceTree = "<group>"; };
+		C4877B2F1CDC664F00A830BF /* FunctionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FunctionView.xib; path = ../FunctionView.xib; sourceTree = "<group>"; };
+		C4877B311CDC687100A830BF /* FunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunctionView.h; path = ../FunctionView.h; sourceTree = "<group>"; };
+		C4877B321CDC687100A830BF /* FunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FunctionView.m; path = ../FunctionView.m; sourceTree = "<group>"; };
 		C4F6BD601CD9932900800F44 /* DawadCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DawadCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6BD641CD9932900800F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F6BD661CD9932900800F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,14 +88,14 @@
 		C4F6BD841CD9932900800F44 /* DawadCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawadCraftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6BD881CD9932900800F44 /* DawadCraftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DawadCraftUITests.m; sourceTree = "<group>"; };
 		C4F6BD8A1CD9932900800F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4FA2E051CDAD7B400739B33 /* GenericView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericView.h; sourceTree = "<group>"; };
-		C4FA2E061CDAD7B400739B33 /* GenericView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericView.m; sourceTree = "<group>"; };
-		C4FA2E0A1CDB17AA00739B33 /* CompanyIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyIntroduceView.h; sourceTree = "<group>"; };
-		C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyIntroduceView.m; sourceTree = "<group>"; };
-		C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyIntroduceView.xib; sourceTree = "<group>"; };
-		C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuideView.xib; sourceTree = "<group>"; };
-		C4FA2E111CDB2AB500739B33 /* GuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideView.h; sourceTree = "<group>"; };
-		C4FA2E121CDB2AB500739B33 /* GuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideView.m; sourceTree = "<group>"; };
+		C4FA2E051CDAD7B400739B33 /* GenericView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericView.h; path = ../GenericView.h; sourceTree = "<group>"; };
+		C4FA2E061CDAD7B400739B33 /* GenericView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericView.m; path = ../GenericView.m; sourceTree = "<group>"; };
+		C4FA2E0A1CDB17AA00739B33 /* CompanyIntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompanyIntroduceView.h; path = ../CompanyIntroduceView.h; sourceTree = "<group>"; };
+		C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompanyIntroduceView.m; path = ../CompanyIntroduceView.m; sourceTree = "<group>"; };
+		C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CompanyIntroduceView.xib; path = ../CompanyIntroduceView.xib; sourceTree = "<group>"; };
+		C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GuideView.xib; path = ../GuideView.xib; sourceTree = "<group>"; };
+		C4FA2E111CDB2AB500739B33 /* GuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuideView.h; path = ../GuideView.h; sourceTree = "<group>"; };
+		C4FA2E121CDB2AB500739B33 /* GuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GuideView.m; path = ../GuideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40F23271CDDC2430003F639 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,9 +124,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40F231D1CDD8E2B0003F639 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C475CDA31CD9CFBA00A5A140 /* HelpVC.h */,
+				C475CDA41CD9CFBA00A5A140 /* HelpVC.m */,
+				C40F23281CDDC2E40003F639 /* MKMapVC.h */,
+				C40F23291CDDC2E40003F639 /* MKMapVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C40F231E1CDD8EA60003F639 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C40F23251CDD8F010003F639 /* View+xib */ = {
+			isa = PBXGroup;
+			children = (
+				C475CDAC1CD9D5C200A5A140 /* cornerRadiusBtn1.h */,
+				C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */,
+				C475CDB41CD9E3E800A5A140 /* ButtonRow.h */,
+				C475CDB51CD9E3E800A5A140 /* ButtonRow.m */,
+				C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */,
+				C4FA2E051CDAD7B400739B33 /* GenericView.h */,
+				C4FA2E061CDAD7B400739B33 /* GenericView.m */,
+				C4FA2E0A1CDB17AA00739B33 /* CompanyIntroduceView.h */,
+				C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */,
+				C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */,
+				C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */,
+				C4FA2E111CDB2AB500739B33 /* GuideView.h */,
+				C4FA2E121CDB2AB500739B33 /* GuideView.m */,
+				0391FE311CDBA3AB00EEE720 /* UpdateView.h */,
+				0391FE321CDBA3AB00EEE720 /* UpdateView.m */,
+				0391FE341CDBA3B900EEE720 /* UpdateView.xib */,
+				C4877B2F1CDC664F00A830BF /* FunctionView.xib */,
+				C4877B311CDC687100A830BF /* FunctionView.h */,
+				C4877B321CDC687100A830BF /* FunctionView.m */,
+			);
+			path = "View+xib";
+			sourceTree = "<group>";
+		};
 		C4F6BD571CD9932900800F44 = {
 			isa = PBXGroup;
 			children = (
+				C40F23261CDDC2430003F639 /* MapKit.framework */,
 				C4F6BD621CD9932900800F44 /* DawadCraft */,
 				C4F6BD7C1CD9932900800F44 /* DawadCraftTests */,
 				C4F6BD871CD9932900800F44 /* DawadCraftUITests */,
@@ -135,12 +192,17 @@
 		C4F6BD621CD9932900800F44 /* DawadCraft */ = {
 			isa = PBXGroup;
 			children = (
+				C40F23251CDD8F010003F639 /* View+xib */,
+				C40F231E1CDD8EA60003F639 /* Resource */,
+				C40F231D1CDD8E2B0003F639 /* Controller */,
 				C4F6BD661CD9932900800F44 /* AppDelegate.h */,
 				C4F6BD671CD9932900800F44 /* AppDelegate.m */,
 				C4F6BD691CD9932900800F44 /* ViewController.h */,
 				C4F6BD6A1CD9932900800F44 /* ViewController.m */,
 				C4F6BD6C1CD9932900800F44 /* Main.storyboard */,
 				C4F6BD6F1CD9932900800F44 /* Assets.xcassets */,
+				C40F231F1CDD8EA60003F639 /* bz.jpg */,
+				C40F23211CDD8EA60003F639 /* LOGO.png */,
 				C4F6BD711CD9932900800F44 /* LaunchScreen.storyboard */,
 				C4F6BD741CD9932900800F44 /* Info.plist */,
 				C4F6BD631CD9932900800F44 /* Supporting Files */,
@@ -151,28 +213,8 @@
 		C4F6BD631CD9932900800F44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C401562F1CDDE8880036A691 /* Never give up.mp4 */,
 				C4F6BD641CD9932900800F44 /* main.m */,
-				C475CDA31CD9CFBA00A5A140 /* HelpVC.h */,
-				C475CDA41CD9CFBA00A5A140 /* HelpVC.m */,
-				C475CDAC1CD9D5C200A5A140 /* cornerRadiusBtn1.h */,
-				C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */,
-				C475CDB41CD9E3E800A5A140 /* ButtonRow.h */,
-				C475CDB51CD9E3E800A5A140 /* ButtonRow.m */,
-				C475CDB91CD9E7CE00A5A140 /* ButtonRow.xib */,
-				C4FA2E051CDAD7B400739B33 /* GenericView.h */,
-				C4FA2E061CDAD7B400739B33 /* GenericView.m */,
-				C4FA2E0A1CDB17AA00739B33 /* CompanyIntroduceView.h */,
-				C4FA2E0D1CDB186D00739B33 /* CompanyIntroduceView.xib */,
-				C4FA2E0B1CDB17AA00739B33 /* CompanyIntroduceView.m */,
-				C4FA2E0F1CDB2A8F00739B33 /* GuideView.xib */,
-				C4FA2E111CDB2AB500739B33 /* GuideView.h */,
-				C4FA2E121CDB2AB500739B33 /* GuideView.m */,
-				0391FE311CDBA3AB00EEE720 /* UpdateView.h */,
-				0391FE321CDBA3AB00EEE720 /* UpdateView.m */,
-				0391FE341CDBA3B900EEE720 /* UpdateView.xib */,
-				C4877B2F1CDC664F00A830BF /* FunctionView.xib */,
-				C4877B311CDC687100A830BF /* FunctionView.h */,
-				C4877B321CDC687100A830BF /* FunctionView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -301,12 +343,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40F23221CDD8EA60003F639 /* bz.jpg in Resources */,
 				0391FE351CDBA3B900EEE720 /* UpdateView.xib in Resources */,
 				C4FA2E0E1CDB186D00739B33 /* CompanyIntroduceView.xib in Resources */,
 				C4877B301CDC664F00A830BF /* FunctionView.xib in Resources */,
 				C475CDBA1CD9E7CE00A5A140 /* ButtonRow.xib in Resources */,
 				C4FA2E101CDB2A8F00739B33 /* GuideView.xib in Resources */,
+				C40156301CDDE8880036A691 /* Never give up.mp4 in Resources */,
 				C4F6BD731CD9932900800F44 /* LaunchScreen.storyboard in Resources */,
+				C40F23241CDD8EA60003F639 /* LOGO.png in Resources */,
 				C4F6BD701CD9932900800F44 /* Assets.xcassets in Resources */,
 				C4F6BD6E1CD9932900800F44 /* Main.storyboard in Resources */,
 			);
@@ -340,6 +385,7 @@
 				0391FE331CDBA3AB00EEE720 /* UpdateView.m in Sources */,
 				C4FA2E131CDB2AB500739B33 /* GuideView.m in Sources */,
 				C475CDA51CD9CFBA00A5A140 /* HelpVC.m in Sources */,
+				C40F232A1CDDC2E40003F639 /* MKMapVC.m in Sources */,
 				C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */,
 				C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */,
 				C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */,
@@ -485,6 +531,7 @@
 		C4F6BD8E1CD9932900800F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DawadCraft/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -497,6 +544,7 @@
 		C4F6BD8F1CD9932900800F44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DawadCraft/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

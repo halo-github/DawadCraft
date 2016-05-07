@@ -32,7 +32,7 @@
                         <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fRg-ZW-LJu">
                             <rect key="frame" x="0.0" y="0.0" width="668" height="345"/>
                             <subviews>
-                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lso-NW-NKl">
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lso-NW-NKl">
                                     <rect key="frame" x="145" y="37" width="378" height="178"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="功能介绍1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nad-wp-gNY">
@@ -49,7 +49,7 @@
                                         <constraint firstItem="Nad-wp-gNY" firstAttribute="centerY" secondItem="lso-NW-NKl" secondAttribute="centerY" id="nOw-0e-0xb"/>
                                     </constraints>
                                 </view>
-                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEG-4X-Y0z">
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEG-4X-Y0z">
                                     <rect key="frame" x="99" y="183" width="378" height="178"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="功能介绍2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQv-oV-F6q">
@@ -66,7 +66,7 @@
                                         <constraint firstItem="bQv-oV-F6q" firstAttribute="centerY" secondItem="bEG-4X-Y0z" secondAttribute="centerY" id="gnm-2K-Wa5"/>
                                     </constraints>
                                 </view>
-                                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNU-g9-zBl">
+                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNU-g9-zBl">
                                     <rect key="frame" x="109" y="193" width="378" height="178"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="功能介绍3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rqf-LO-uP0">
@@ -87,7 +87,13 @@
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstItem="bEG-4X-Y0z" firstAttribute="centerX" secondItem="fRg-ZW-LJu" secondAttribute="centerX" id="0Vu-6x-Vnw"/>
+                                <constraint firstItem="bEG-4X-Y0z" firstAttribute="width" secondItem="fRg-ZW-LJu" secondAttribute="width" multiplier="2:3" id="2MK-Ai-tEs"/>
+                                <constraint firstItem="bEG-4X-Y0z" firstAttribute="height" secondItem="fRg-ZW-LJu" secondAttribute="height" multiplier="1:5" id="2pA-P5-U6k"/>
+                                <constraint firstItem="QNU-g9-zBl" firstAttribute="height" secondItem="fRg-ZW-LJu" secondAttribute="height" multiplier="1:5" id="DTF-1s-Vxd"/>
+                                <constraint firstItem="lso-NW-NKl" firstAttribute="height" secondItem="fRg-ZW-LJu" secondAttribute="height" multiplier="1:5" id="GpK-nX-5KV"/>
+                                <constraint firstItem="lso-NW-NKl" firstAttribute="width" secondItem="fRg-ZW-LJu" secondAttribute="width" multiplier="2:3" id="OkY-Bc-JIX"/>
                                 <constraint firstItem="lso-NW-NKl" firstAttribute="centerX" secondItem="fRg-ZW-LJu" secondAttribute="centerX" id="P95-Al-lrg"/>
+                                <constraint firstItem="QNU-g9-zBl" firstAttribute="width" secondItem="fRg-ZW-LJu" secondAttribute="width" multiplier="2:3" id="al5-B3-aCl"/>
                                 <constraint firstItem="QNU-g9-zBl" firstAttribute="centerY" secondItem="fRg-ZW-LJu" secondAttribute="centerY" multiplier="3:2" id="iz2-p3-uBz"/>
                                 <constraint firstItem="QNU-g9-zBl" firstAttribute="centerX" secondItem="fRg-ZW-LJu" secondAttribute="centerX" id="jKB-l2-KpL"/>
                                 <constraint firstItem="lso-NW-NKl" firstAttribute="centerX" secondItem="fRg-ZW-LJu" secondAttribute="centerX" id="l6r-oI-kLY"/>
