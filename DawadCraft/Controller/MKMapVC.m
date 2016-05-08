@@ -26,12 +26,33 @@
     self.mapView.mapType = MKMapTypeStandard;
     self.mapView.showsUserLocation = YES;
 //    self.mapView.delegate = self;
+    
+    [self.mapView addSubview:self.drawView];
+
 #endif
 }
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{
         
     }];
+}
+- (IBAction)drawBtn:(id)sender {
+    UIButton *btn =sender;
+    if ([btn.titleLabel.text isEqualToString:@"draw"]) {
+        [btn setTitle:@"OK" forState:UIControlStateNormal];
+        [UIView animateWithDuration:1 animations:^{
+            self.drawView.frame = self.view.bounds;
+
+        }];
+        
+    } else {
+        [btn setTitle:@"draw" forState:UIControlStateNormal];
+        [UIView animateWithDuration:1 animations:^{
+            self.drawView.frame = CGRectZero;
+            
+        }];
+
+    }
 }
 
 - (void)didReceiveMemoryWarning {

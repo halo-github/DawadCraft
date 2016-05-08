@@ -12,4 +12,5 @@
 @interface MKMapVC : UIViewController<CLLocationManagerDelegate>
 @property (nonatomic, strong) CLLocationManager *localtionManager;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+@property (nonatomic, strong) UIView *drawView;
 @end

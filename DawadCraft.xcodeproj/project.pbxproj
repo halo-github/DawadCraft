@@ -14,6 +14,10 @@
 		C40F23241CDD8EA60003F639 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = C40F23211CDD8EA60003F639 /* LOGO.png */; };
 		C40F23271CDDC2430003F639 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C40F23261CDDC2430003F639 /* MapKit.framework */; };
 		C40F232A1CDDC2E40003F639 /* MKMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C40F23291CDDC2E40003F639 /* MKMapVC.m */; };
+		C45151951CDEDD6C0083C9E7 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C45151941CDEDD6C0083C9E7 /* PlayerView.m */; };
+		C45151981CDEEDB50083C9E7 /* PlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C45151971CDEEDB50083C9E7 /* PlayerLayer.m */; };
+		C451519A1CDF07E70083C9E7 /* test.h264 in Resources */ = {isa = PBXBuildFile; fileRef = C45151991CDF07E70083C9E7 /* test.h264 */; };
+		C451519D1CDF12210083C9E7 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C451519C1CDF12210083C9E7 /* DrawView.m */; };
 		C475CDA51CD9CFBA00A5A140 /* HelpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDA41CD9CFBA00A5A140 /* HelpVC.m */; };
 		C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDAD1CD9D5C200A5A140 /* cornerRadiusBtn1.m */; };
 		C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */ = {isa = PBXBuildFile; fileRef = C475CDB51CD9E3E800A5A140 /* ButtonRow.m */; };
@@ -62,6 +66,13 @@
 		C40F23261CDDC2430003F639 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C40F23281CDDC2E40003F639 /* MKMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMapVC.h; sourceTree = "<group>"; };
 		C40F23291CDDC2E40003F639 /* MKMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMapVC.m; sourceTree = "<group>"; };
+		C45151931CDEDD6C0083C9E7 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		C45151941CDEDD6C0083C9E7 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		C45151961CDEEDB50083C9E7 /* PlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerLayer.h; sourceTree = "<group>"; };
+		C45151971CDEEDB50083C9E7 /* PlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerLayer.m; sourceTree = "<group>"; };
+		C45151991CDF07E70083C9E7 /* test.h264 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.h264; sourceTree = "<group>"; };
+		C451519B1CDF12210083C9E7 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		C451519C1CDF12210083C9E7 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		C475CDA31CD9CFBA00A5A140 /* HelpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpVC.h; path = ../HelpVC.h; sourceTree = "<group>"; };
 		C475CDA41CD9CFBA00A5A140 /* HelpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpVC.m; path = ../HelpVC.m; sourceTree = "<group>"; };
 		C475CDAC1CD9D5C200A5A140 /* cornerRadiusBtn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cornerRadiusBtn1.h; path = ../cornerRadiusBtn1.h; sourceTree = "<group>"; };
@@ -164,6 +175,12 @@
 				C4877B2F1CDC664F00A830BF /* FunctionView.xib */,
 				C4877B311CDC687100A830BF /* FunctionView.h */,
 				C4877B321CDC687100A830BF /* FunctionView.m */,
+				C45151931CDEDD6C0083C9E7 /* PlayerView.h */,
+				C45151941CDEDD6C0083C9E7 /* PlayerView.m */,
+				C45151961CDEEDB50083C9E7 /* PlayerLayer.h */,
+				C45151971CDEEDB50083C9E7 /* PlayerLayer.m */,
+				C451519B1CDF12210083C9E7 /* DrawView.h */,
+				C451519C1CDF12210083C9E7 /* DrawView.m */,
 			);
 			path = "View+xib";
 			sourceTree = "<group>";
@@ -213,6 +230,7 @@
 		C4F6BD631CD9932900800F44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C45151991CDF07E70083C9E7 /* test.h264 */,
 				C401562F1CDDE8880036A691 /* Never give up.mp4 */,
 				C4F6BD641CD9932900800F44 /* main.m */,
 			);
@@ -354,6 +372,7 @@
 				C40F23241CDD8EA60003F639 /* LOGO.png in Resources */,
 				C4F6BD701CD9932900800F44 /* Assets.xcassets in Resources */,
 				C4F6BD6E1CD9932900800F44 /* Main.storyboard in Resources */,
+				C451519A1CDF07E70083C9E7 /* test.h264 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,12 +403,15 @@
 				C4F6BD6B1CD9932900800F44 /* ViewController.m in Sources */,
 				0391FE331CDBA3AB00EEE720 /* UpdateView.m in Sources */,
 				C4FA2E131CDB2AB500739B33 /* GuideView.m in Sources */,
+				C45151981CDEEDB50083C9E7 /* PlayerLayer.m in Sources */,
 				C475CDA51CD9CFBA00A5A140 /* HelpVC.m in Sources */,
 				C40F232A1CDDC2E40003F639 /* MKMapVC.m in Sources */,
 				C475CDAE1CD9D5C200A5A140 /* cornerRadiusBtn1.m in Sources */,
 				C4F6BD681CD9932900800F44 /* AppDelegate.m in Sources */,
 				C475CDB61CD9E3E800A5A140 /* ButtonRow.m in Sources */,
 				C4F6BD651CD9932900800F44 /* main.m in Sources */,
+				C45151951CDEDD6C0083C9E7 /* PlayerView.m in Sources */,
+				C451519D1CDF12210083C9E7 /* DrawView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
