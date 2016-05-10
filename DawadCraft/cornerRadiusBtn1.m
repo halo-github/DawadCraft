@@ -20,8 +20,7 @@
 -(void)setFrame:(CGRect)frame
 {
     [super setFrame:frame];
-    self.layer.cornerRadius = 0.05*(self.bounds.size.width + self.bounds.size.height);
+    self.layer.cornerRadius = 0.05*(self.frame.size.width + self.bounds.size.height);
     self.layer.borderWidth = 1;
-//    self.layer.borderColor
 }
 @end

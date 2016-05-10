@@ -10,7 +10,7 @@
 #import "CompanyIntroduceView.h"
 #import <MediaPlayer/MediaPlayer.h>
 #import "PlayerView.h"
-#import "PlayerLayer.h"
+
 @interface ViewController ()
 
 @end
@@ -36,6 +36,7 @@
 //    [self.view addSubview:self.movieCtrl.view];
     AVPlayerItem *item = [AVPlayerItem playerItemWithURL:playUrl];
     AVPlayer *plr = [AVPlayer playerWithPlayerItem:item];
+//    AVPlayerLayer *plrLayer = 
     PlayerView *plrView = [PlayerView sharedPlayer];
     AVPlayerLayer *layer  = plrView.layer;
     layer.videoGravity = AVLayerVideoGravityResizeAspectFill;
@@ -49,13 +50,13 @@
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.movieCtrl play];
+    [[[PlayerView sharedPlayer] player] play];
 }
 
 -(void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [self.movieCtrl pause];
+    [[[PlayerView sharedPlayer] player] pause];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

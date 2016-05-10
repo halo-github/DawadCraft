@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface DrawView : UIView
-
+{
+    CGContextRef context;
+    CGLayerRef layer;
+    float brushWidth;
+    float brushColor;
+}
 @end
