@@ -38,9 +38,9 @@
 	<key>CFBundleDisplayName</key>
 	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>YES</string>
+	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>YES</string>
+	<false/>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

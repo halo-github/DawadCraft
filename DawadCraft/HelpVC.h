@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ButtonRow.h"
-#import "CompanyIntroduceView.h"
-@interface HelpVC : UIViewController<ButtonRowDelegate>
-@property (weak, nonatomic) IBOutlet ButtonRow *buttons;
-@property (strong, nonatomic) IBOutlet CompanyIntroduceView *genericView;
 
+#import "CommmonButtonRow.h"
+#import "CompanyIntroduceView.h"
+@interface HelpVC : UIViewController
+@property (strong, nonatomic) IBOutlet CompanyIntroduceView *genericView;
+@property (weak, nonatomic) IBOutlet CommmonButtonRow *buttonTab;
+//@property (nonatomic, strong) NSMutableArray *dataArr;
 
 
 

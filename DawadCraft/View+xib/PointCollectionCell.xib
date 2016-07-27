@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionCell" id="n3P-3S-DMZ" customClass="PointCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="101" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="101" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="经度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIn-O1-HSp">
+                        <rect key="frame" x="39.5" y="19.5" width="22" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npK-1n-9De">
+                        <rect key="frame" x="39" y="32" width="22" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纬度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95H-LV-ICy">
+                        <rect key="frame" x="39" y="6" width="22" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="95H-LV-ICy" firstAttribute="centerX" secondItem="n3P-3S-DMZ" secondAttribute="centerX" id="dUp-dX-8Wl"/>
+                <constraint firstItem="95H-LV-ICy" firstAttribute="centerY" secondItem="n3P-3S-DMZ" secondAttribute="centerY" multiplier="1:2" id="goa-u2-11w"/>
+                <constraint firstItem="npK-1n-9De" firstAttribute="centerX" secondItem="n3P-3S-DMZ" secondAttribute="centerX" id="gzY-gg-51W"/>
+                <constraint firstItem="bIn-O1-HSp" firstAttribute="centerY" secondItem="n3P-3S-DMZ" secondAttribute="centerY" id="hht-EA-tPW"/>
+                <constraint firstItem="bIn-O1-HSp" firstAttribute="centerX" secondItem="n3P-3S-DMZ" secondAttribute="centerX" id="nY4-M1-LeP"/>
+                <constraint firstItem="npK-1n-9De" firstAttribute="centerY" secondItem="n3P-3S-DMZ" secondAttribute="centerY" multiplier="3:2" id="vgm-Km-NTw"/>
+            </constraints>
+            <size key="customSize" width="101" height="52"/>
+            <connections>
+                <outlet property="heightLab" destination="npK-1n-9De" id="Mdh-dy-bl4"/>
+                <outlet property="latitudeLab" destination="95H-LV-ICy" id="KB2-hU-buc"/>
+                <outlet property="longitudeLab" destination="bIn-O1-HSp" id="ARE-HB-9vc"/>
+            </connections>
+            <point key="canvasLocation" x="234.5" y="291"/>
+        </collectionViewCell>
+    </objects>
+</document>

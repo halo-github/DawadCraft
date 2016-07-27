@@ -7,7 +7,6 @@
 //
 
 #import "HelpVC.h"
-#import "ButtonRow.h"
 #import "CompanyIntroduceView.h"
 #import "GuideView.h"
 @interface HelpVC ()
@@ -16,18 +15,18 @@
 
 @implementation HelpVC
 
+-(void)loadView
+{
+    [super loadView];
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.buttons.delegate = self;
-    self.buttons.genericVW = self.genericView;
-//    CGRect rect = self.genericView.frame;
-//    self.genericView = [[CompanyIntroduceView alloc] initWithFrame:rect];
-//    [self.genericView awakeFromNib];
-//    [self.view addSubview:self.genericView];
-}
+    _buttonTab.dataArr = [[NSMutableArray  alloc] initWithObjects:@{@"公司介绍":@"CompanyIntroduceView"},@{@"指南文档":@"GuideView"},@{@"功能介绍":@"FunctionView"},@{@"版本更新":@"UpdateView"}, nil];
+    _buttonTab.commonView = _genericView;
+    }
 - (IBAction)back:(id)sender {
     [self dismissViewControllerAnimated:YES completion:^{
-        
     }];
 }
 
@@ -35,11 +34,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)selected:(UIButton *)button
-{
-//    [self.companyIntroduceVW awakeFromNib];
-//    [(GuideView*)self.companyIntroduceVW awakeFromNib];
-}
+
 /*
 #pragma mark - Navigation
 
@@ -49,5 +44,6 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 
 @end

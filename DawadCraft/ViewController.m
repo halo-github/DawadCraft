@@ -26,17 +26,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Never give up" ofType:@"mp4"];
     NSURL *playUrl = [NSURL fileURLWithPath:path];
-//    self.movieCtrl = [[MPMoviePlayerController alloc] initWithContentURL:playUrl];
-//    self.movieCtrl.controlStyle = MPMovieControlStyleNone;
-//    self.movieCtrl.view.frame = self.view.bounds;
-////    self.backView = self.movieCtrl.view;
-//    
-//    [self.movieCtrl prepareToPlay];
-//    [self.movieCtrl play];
-//    [self.view addSubview:self.movieCtrl.view];
     AVPlayerItem *item = [AVPlayerItem playerItemWithURL:playUrl];
     AVPlayer *plr = [AVPlayer playerWithPlayerItem:item];
-//    AVPlayerLayer *plrLayer = 
+    //    AVPlayerLayer *plrLayer =
     PlayerView *plrView = [PlayerView sharedPlayer];
     AVPlayerLayer *layer  = plrView.layer;
     layer.videoGravity = AVLayerVideoGravityResizeAspectFill;
@@ -44,6 +36,15 @@
     plrView.frame = self.view.bounds;
     [plr play];
     [self.view  addSubview:plrView];
+
+//    _movieCtrl = [[MPMoviePlayerController alloc] initWithContentURL:playUrl];
+//    _movieCtrl.controlStyle = MPMovieControlStyleNone;
+//    _movieCtrl.view.frame = _view.bounds;
+////    _backView = _movieCtrl.view;
+//    
+//    [_movieCtrl prepareToPlay];
+//    [_movieCtrl play];
+//    [_view addSubview:_movieCtrl.view];
     
  }
 

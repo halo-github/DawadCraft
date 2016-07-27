@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <MapKit/MapKit.h>
 @interface DrawLine : UIView
 {
     CGMutablePathRef path;
     CGContextRef context;
+    CGPoint firstLocation;
+    CGPoint secondLocation;
+    CGPoint thirdLocation;
 }
+@property (nonatomic, strong) NSMutableArray *locationArr;
+@property (nonatomic, strong) MKMapView *mapView;
 -(id)initWithFrame:(CGRect)frame;
 @end
